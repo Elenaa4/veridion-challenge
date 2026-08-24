@@ -1,6 +1,6 @@
 # veridion-challenge
 
-Acest repositoru conține soluția mea pentru provocarea din cadrul programului Veridion Internship Challenge — Autonomous Systems on Mars
+Acest repository conține soluția mea pentru provocarea din cadrul programului Veridion Internship Challenge — Autonomous Systems on Mars
 
 Provocarea
 
