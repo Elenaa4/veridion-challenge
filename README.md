@@ -1,44 +1,44 @@
 # veridion-challenge
 
-This repository contains my solution for the Veridion Internship Challenge — Autonomous Systems on Mars.
+Acest repositoru conține soluția mea pentru provocarea din cadrul programului Veridion Internship Challenge — Autonomous Systems on Mars
 
-Challenge
+Provocarea
 
-The scenario considers an autonomous aircraft operating on Mars that detects a dust storm approximately 12 minutes ahead on its current route, while communication with Earth has a delay.
+Scenariul vizează o aeronavă autonomă care operează pe Marte și detectează o furtună de praf pe ruta sa actuală, la o distanță în aproximativ 12 minute, în condițiile în care comunicarea cu Pământul implică o întârziere.
 
-The aircraft therefore needs to evaluate the situation and make a decision autonomously.
+Prin urmare, aeronava trebuie să evalueze situația și să ia o decizie în mod autonom.
 
-My Approach
+Abordarea mea
 
-I approached the problem as a challenge under uncertainty, incomplete information, time constraints and limited energy.
+Am abordat problema ca pe o provocare caracterizată prin incertitudine, informații incomplete, constrângeri de timp și resurse energetice limitate.
 
-The proposed system structures the decision process in three stages:
+Sistemul propus structurează procesul decizional în trei etape:
 
-Evidence Reliability → Safety Feasibility → Best Feasible Action
+Fiabilitatea dovezilor → Fezabilitatea din perspectiva siguranței → Cea mai bună acțiune fezabilă
 
-The design focuses on:
+Designul se concentrează pe:
 
-* evaluating the reliability of potentially conflicting sensor signals;
-* separating observations, inferences and confidence;
-* accounting for uncertainty in the predicted location;
-* determining when waiting for Earth is no longer operationally useful;
-* preserving sufficient electrical energy for a recoverable safe state;
-* rejecting unsafe actions before optimizing between feasible alternatives;
-* continuously the decision as new information becomes available.
+*   evaluarea fiabilității semnalelor provenite de la senzori, care pot fi contradictorii;
+*   separarea observațiilor, a inferențelor și a gradului de încredere;
+*   luarea în calcul a incertitudinii privind locația estimată;
+*   determinarea momentului în care așteptarea unui răspuns de la Pământ nu mai este utilă din punct de vedere operațional;
+*   conservarea unei cantități suficiente de energie electrică pentru a permite revenirea la o stare sigură;
+*   eliminarea acțiunilor nesigure înainte de optimizarea alegerii între alternativele fezabile;
+*   actualizarea continuă a deciziei pe măsură ce devin disponibile noi informații.
 
-Design Document
+Documentul de design
 
-The document contains:
+Documentul conține:
 
-* Part 1 — Problem Analysis
-* Part 2 — Proposed Solution
+*   Partea 1 — Analiza problemei
+*   Partea 2 — Soluția propusă
 
-It includes the assumptions, open questions, engineering, architecture, data flow, decision logic, pseudocode, validation strategy, limitations and proposed implementation approach.
+Acesta include ipotezele, aspectele neelucidate, detaliile tehnice, arhitectura, fluxul de date, logica decizională, pseudocodul, strategia de validare, limitările și abordarea propusă pentru implementare.
 
-AI Usage
+Utilizarea IA
 
-AI tools were used during the exploration process to challenge assumptions, identify edge cases and help structure the analysis. Suggestions were evaluated and adapted rather than treated as requirements.
+Instrumentele bazate pe inteligență artificială au fost utilizate în etapa de explorare pentru a testa validitatea ipotezelor, a identifica situații limită și a structura analiza. Sugestiile primite au fost evaluate și adaptate, nefiind tratate ca cerințe obligatorii.
 
-Author
+Autor
 
 Georgiana-Elena Dumitru
